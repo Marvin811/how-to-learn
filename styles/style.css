@@ -10,12 +10,13 @@
 }
 .logo {
   background-image: url(/how-to-learn/images/logo_place_header.svg);
-  background-size: auto;
+  
 }
 .header {
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+  background-color: #f80909;
   /* выше установили ограничения для секции */
 }
 .content__title_item_main{
