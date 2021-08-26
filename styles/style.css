@@ -8,14 +8,22 @@
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
-
+.logo {
+  background-image: url(/how-to-learn/images/logo_place_header.svg);
+  background-size: auto;
+}
 .header {
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
   /* выше установили ограничения для секции */
 }
-
+.content__title_item_main{
+  color: #000000;
+  font-size: 102px;
+  line-height: 96px;
+  margin-bottom: 6px;
+}
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
