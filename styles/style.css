@@ -197,6 +197,7 @@
   bottom: 0;
   z-index: 1;
 }
+
 .feynman__title {
   width: 648px;
   margin: 100px auto 70px;
@@ -206,6 +207,7 @@
   font-weight: bold;
   z-index: 5;
 }
+
 .feyman__subtitle {
   margin: auto;
   text-align: center;
@@ -214,6 +216,7 @@
   font-weight: normal;
   z-index: 2;
 }
+
 .feyman_link {
   position: absolute;
   top: 50%;
@@ -228,6 +231,7 @@
   overflow: hidden;
   background-color: #1f1f1f;
 }
+
 .kaufman__triangle {
   width: 877px;
   height: 877px;
@@ -238,6 +242,7 @@
   right: 0;
   background-repeat: no-repeat;
 }
+
 .section-title_theme_dark {
   width: 60%;
   margin: 90px auto 20px;
@@ -249,6 +254,7 @@
   color: white;
   z-index: 3;
 }
+
 .section-subtitle_theme_dark {
   width: 60%;
   margin: auto;
@@ -260,6 +266,7 @@
   color: white;
   z-index: 3;
 }
+
 .table_theme_dark {
   display: flex;
   justify-content: space-evenly;
@@ -272,6 +279,7 @@
   margin-bottom: 90px;
   z-index: 3;
 }
+
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
@@ -281,6 +289,7 @@
   z-index: 3;
 
 }
+
 .table__heading_theme_dark {
   line-height: 1.15;
   font-size: 24px;
@@ -290,6 +299,7 @@
   z-index: 3;
 
 }
+
 .table__text_theme_dark:last-of-type {
   margin-bottom: 20px;
   line-height: 1.2;
@@ -297,30 +307,36 @@
   font-weight: normal;
   z-index: 3;
 }
+
 .footer {
   background-color: #1f1f1f;
   padding: 60px 0 40px 0;
   box-sizing: border-box;
   min-height: 350px;
 }
+
 .footer__columns {
   width: 90%;
   display: flex;
   justify-content: space-between;
   margin: auto;
 }
+
 .footer__column {
   display: flex;
   flex-direction: column;
 }
+
 .footer__column_content_copyright {
   flex-basis: 711px;
   justify-content: space-between;
 }
+
 .logo_place_footer {
   width: 183px;
   height: 35px;
 }
+
 .footer__author {
   color: #ffffff;
   padding: 18px 0;
@@ -329,6 +345,7 @@
   font-size: 18px;
   font-weight: normal;
 }
+
 .footer__column-heading {
   margin: 0;
   color: #ffffff;
@@ -336,11 +353,13 @@
   font-size: 18px;
   font-weight: bold;
 }
+
 .footer__column-links {
   display: flex;
   flex-direction: column;
   padding: 20px 0 16px 0;
 }
+
 .footer__column-link {
   color: #ffffff;
   text-decoration: none;
