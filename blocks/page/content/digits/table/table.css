@@ -1,0 +1,11 @@
+.table {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: stretch;
+  align-items: stretch;
+  margin: auto;
+  width: 1100px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+}
