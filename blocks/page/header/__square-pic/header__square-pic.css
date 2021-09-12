@@ -9,4 +9,5 @@
   background-size: auto;
   z-index: 1;
   flex-direction: row;
+  animation: rotation 20s linear infinite;
 }
