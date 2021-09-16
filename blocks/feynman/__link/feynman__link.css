@@ -1,16 +1,17 @@
-.feyman__link {
+.feynman__link {
   position: absolute;
   top: 50%;
   right: 48px;
+  text-decoration: none;
+  color: #2f80ed;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
-  z-index: 2;
-  color: #2f80ed;
-  text-decoration: none;
+  transition: opacity 0.3s ease-in;
+  transform: translateY(-50%);
+  z-index: 5;
 }
 
-.feyman__link:hover {
-  opacity: 0.5;
-  transition: 1s;
+.feynman__link:hover {
+  opacity: 0.3;
 }
